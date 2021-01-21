@@ -2,6 +2,7 @@ import React from 'react';
 import './LogInForm.css';
 import Input from './Input';
 import Container from './container';
+import Button from './Button';
 
 
 function LogInForm() {
@@ -16,7 +17,16 @@ function LogInForm() {
                 <Input text='Username' type='text'></Input>
                 <br/>
                 <br/>
-                <Input text='password' type='password'></Input>
+                <Input text='Password' type='password'></Input>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <Button text='Submit'>
+
+                </Button>
+
+                
 
             </Container>
         </>
